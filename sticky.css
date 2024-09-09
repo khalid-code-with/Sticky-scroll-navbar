@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px 0;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+#menu_bar {
+    text-align: center;
+    background-color: cadetblue;
+    padding: 15px 0;
+    margin: 0;
+}
+
+#menu_bar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#menu_bar li {
+    display: inline-block;
+    padding: 15px 20px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+#menu_bar li:hover {
+    background-color: black;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    text-transform: capitalize;
+    text-shadow: 1px 1px 10px rgb(16, 117, 151);
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
